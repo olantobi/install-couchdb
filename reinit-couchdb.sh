@@ -2,7 +2,7 @@
 
 set -e
 
-cd apache-couchdb-2.0.0/
+cd apache-couchdb-2.2.0/
 
 sudo sv stop couchdb
 sudo killall epmd || true
